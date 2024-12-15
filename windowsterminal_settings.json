@@ -1,0 +1,146 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "language": "en-US",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "colorScheme": "Campbell Powershell",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "MesloLGM Nerd Font",
+                    "size": 14
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "backgroundImage": "C:\\Users\\kudsi\\Pictures\\simpsons-wallpaper.jpg",
+                "backgroundImageOpacity": 0.3,
+                "colorScheme": "Blue Matrix",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "filledBox",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "Hack",
+                    "size": 16,
+                    "weight": "bold"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "opacity": 100,
+                "startingDirectory": "C:\\works",
+                "useAcrylic": false
+            },
+            {
+                "backgroundImage": "C:\\Users\\kudsi\\Pictures\\gitcheatsheet.jpg",
+                "backgroundImageOpacity": 0.3,
+                "backgroundImageStretchMode": "fill",
+                "font": 
+                {
+                    "face": "Hack",
+                    "size": 16
+                },
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git",
+                "startingDirectory": "C:\\works"
+            },
+            {
+                "backgroundImage": "C:\\Users\\kudsi\\Pictures\\kali.png",
+                "backgroundImageOpacity": 0.25,
+                "backgroundImageStretchMode": "fill",
+                "colorScheme": "Campbell",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Hack",
+                    "size": 16,
+                    "weight": "light"
+                },
+                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "hidden": false,
+                "name": "kali-linux",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#101116",
+            "black": "#101116",
+            "blue": "#00B0FF",
+            "brightBlack": "#686868",
+            "brightBlue": "#6871FF",
+            "brightCyan": "#60FDFF",
+            "brightGreen": "#5FFA68",
+            "brightPurple": "#D682EC",
+            "brightRed": "#FF6E67",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFC67",
+            "cursorColor": "#76FF9F",
+            "cyan": "#76C1FF",
+            "foreground": "#00A2FF",
+            "green": "#00FF9C",
+            "name": "Blue Matrix",
+            "purple": "#D57BFF",
+            "red": "#FF5680",
+            "selectionBackground": "#C1DEFF",
+            "white": "#C7C7C7",
+            "yellow": "#FFFC58"
+        }
+    ],
+    "themes": []
+}
